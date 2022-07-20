@@ -7,7 +7,6 @@ The results of data analysis, modeling and training scores for all used models a
 The results for main.py are also included in the notebook.
 
 ## Code : main.py
-
 Has final code that :
     - calls the best model
     - pre-process training and testing data

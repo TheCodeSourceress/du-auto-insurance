@@ -8,7 +8,7 @@ The results for main.py are also included in the notebook.
 
 ## Code : main.py
 Has final code that :
-    - calls the best model
+	- calls the best model
     - pre-process training and testing data
     - evaluate model on training data and returns a full classification report). Look for recall : the metric we were trying to maximize. (The rationales are explained in the notebook).
     - make predictions and save them into : prediction_on_auto_test.csv   

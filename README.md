@@ -8,10 +8,10 @@ The results for main.py are also included in the notebook.
 
 ## Code : main.py
 Has final code that :
-	- calls the best model
-    - pre-process training and testing data
-    - evaluate model on training data and returns a full classification report). Look for recall : the metric we were trying to maximize. (The rationales are explained in the notebook).
-    - make predictions and save them into : prediction_on_auto_test.csv   
+1. calls the best model
+2. pre-process training and testing data
+3. evaluate model on training data and returns a full classification report). Look for recall : the metric we were trying to maximize. (The rationales are explained in the notebook).
+4. make predictions and save them into : prediction_on_auto_test.csv   
 
 ### running main.py
 ```
@@ -24,7 +24,7 @@ python ./main.py
 Requirements are written under requirements.txt
 
 ## Project tree
-
+```
 ├── README.md
 ├── data
 │   ├── MEAN_AUTO.csv
@@ -43,4 +43,4 @@ Requirements are written under requirements.txt
 ├── requirements.txt                      -> required python packages for this project.
 ├── screen.png
 └── test_notebook.ipynb                   -> notebook that contains all experiments and results.
-
+```
